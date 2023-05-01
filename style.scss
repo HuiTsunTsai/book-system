@@ -1,0 +1,8 @@
+@import "./node_modules/bootstrap/scss/functions";
+@import "./stylesheet/helper/variables";
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+// my
+@import "./stylesheet/page/home";
+@import "./stylesheet/page/seller";
+@import "./stylesheet/page/customer";

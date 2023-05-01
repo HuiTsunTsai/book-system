@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer_Search</title>
+    <!-- css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<body class="cus_body">
+    <div class="home_area1">
+        <h1 class="title">Book Shop</h1>
+    </div>
+
+    <!-- Area1 -->
+    <div class="cus_search_area">
+
+        <nav class="navbar navbar-light bg-secondary" style="border-radius: 10px;">
+            <div class="container-fluid">
+              <a class="navbar-brand">搜尋<span style="font-size: 15px; color: rgb(41, 40, 40);"> 分類</span></a>
+              <form class="d-flex">
+                <input id="typeInput" class="form-control me-2" type="search" placeholder="Type" aria-label="Search">
+                <button id="typeBtn" class="btn btn-outline-light" type="button">Search</button>
+              </form>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-light bg-secondary" style="border-radius: 10px;">
+            <div class="container-fluid">
+              <a class="navbar-brand">搜尋<span style="font-size: 15px; color: rgb(41, 40, 40);"> 書名｜作者｜ISBN</span></a>
+              <form class="d-flex">
+                <input id="input2" class="form-control me-2" type="search" placeholder="Name / Writer / Isbn" aria-label="Search">
+                <button id="input2" class="btn btn-outline-light" type="button">Search</button>
+              </form>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Area2 -->
+    <div class="search-box">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+ <!-- Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>  
+<script src="./js/customer_search.js"></script> 
+</body>
+</html>

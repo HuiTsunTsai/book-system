@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search</title>
+    <!-- css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body class="seller_page">
+    <div class="seller-title">
+      <h1>書籍查詢</h1>
+    </div>
+    
+    <!-- Area1 -->
+    <div class="seller-area1">
+        <div class="input-group mb-3">
+            <select id="search_select" class="btn btn-outline-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <option>Options</option>
+                <option value="name">書名</option>
+                <option value="isbn">ISBN</option>
+                <option value="writer">作者</option>
+            </select>
+            <input type="text" id="input" class="form-control" aria-label="Text input with dropdown button">
+            <button type="button" id="search_btn" class="searchBtn btn-success">搜尋</button>
+          </div>
+    </div>
+
+    <!-- Area2 -->
+    <div class="search-area2">
+      <h5>ISBN：<span id="resIsbn"></span></h5>
+      <h5>書名：<span id="resName"></span></h5>
+      <h5>作者：<span id="resWriter"></span></h5>
+      <h5>價格：<span id="resPrice"></span></h5>
+      <h5>庫存：<span id="resStock"></span></h5>
+      <h5>銷售量：<span id="resSales"></span></h5>
+    </div>
+
+    </div>
+    <!-- Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <script src="./js/seller_search.js"></script>
+  </body>
+</html>

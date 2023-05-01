@@ -1,0 +1,76 @@
+// bookSeller
+.seller_page{
+    background-color: #fff3cd;
+    padding: 50px 40px;
+
+    .seller-title{
+        height: 13vh;
+        text-align: center;
+    }
+
+    .seller-area1{
+        border-top: 1.2px solid #000;
+
+        .card{
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .btn{
+            width: 100px;
+        }
+    }
+}
+
+
+// Seller Search
+.input-group{
+    width: 500px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.search-area2{
+    width: 590px;
+    height: 500px;
+    background-color: #e6c39a;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 28px;
+
+}
+
+
+// Seller Add
+.sellerAdd-area1{
+    border-top: 1.2px solid #000;
+    display: flex;
+    margin-left: 50px;
+    position: relative;
+
+    .add-area{
+        margin-top: 25px;
+    }
+
+    .picArea{
+        width: 282px;
+        height: 430px;
+        background-image: url(https://litvox.com/wp-content/uploads/2021/10/The-Cat-Who-Saved-Books.jpg);
+        background-size: contain;
+        position: absolute;
+        left: 340px;
+        top: 106px;
+    }
+}
+
+// Updata_Stock
+.btnArea{
+    display: flex;
+    justify-content: center;
+
+}
